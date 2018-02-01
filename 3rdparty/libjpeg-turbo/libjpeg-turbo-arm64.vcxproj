@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_shared|ARM64">
+      <Configuration>Debug_shared</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_static|ARM64">
+      <Configuration>Debug_static</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_shared|ARM64">
+      <Configuration>Release_shared</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_static|ARM64">
+      <Configuration>Release_static</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libjpeg-turbo\simd\jsimd_arm64_neon.S">
+      <FileType>Document</FileType>
+      <PrecompiledHeaderCompileAs Condition="'$(Configuration)|$(Platform)'=='Release_static|ARM64'">CompileAsCpp</PrecompiledHeaderCompileAs>
+      <PrecompiledHeaderCompileAs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|ARM64'">CompileAsCpp</PrecompiledHeaderCompileAs>
+      <PrecompiledHeaderCompileAs Condition="'$(Configuration)|$(Platform)'=='Release_shared|ARM64'">CompileAsCpp</PrecompiledHeaderCompileAs>
+      <PrecompiledHeaderCompileAs Condition="'$(Configuration)|$(Platform)'=='Debug_static|ARM64'">CompileAsCpp</PrecompiledHeaderCompileAs>
+      <CppLanguageStandard Condition="'$(Configuration)|$(Platform)'=='Release_static|ARM64'">Default</CppLanguageStandard>
+      <CppLanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug_shared|ARM64'">Default</CppLanguageStandard>
+      <CppLanguageStandard Condition="'$(Configuration)|$(Platform)'=='Release_shared|ARM64'">Default</CppLanguageStandard>
+      <CppLanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug_static|ARM64'">Default</CppLanguageStandard>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release_static|ARM64'">
+      </CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|ARM64'">
+      </CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release_shared|ARM64'">
+      </CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug_static|ARM64'">
+      </CompileAs>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libjpeg-turbo\simd\jsimd_arm64.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{d946a032-36de-480f-a5d4-ee8b7ace5473}</ProjectGuid>
+    <Keyword>Android</Keyword>
+    <RootNamespace>libjpeg_turbo_arm64</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Android</ApplicationType>
+    <ApplicationTypeRevision>3.0</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_shared|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+    <UseOfStl>c++_shared</UseOfStl>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+    <UseOfStl>c++_static</UseOfStl>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_shared|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+    <UseOfStl>c++_shared</UseOfStl>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+    <UseOfStl>c++_static</UseOfStl>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared">
+    <Import Project="libjpeg-turbo.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_shared|ARM64'">
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>libjpeg-turbo</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static|ARM64'">
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>libjpeg-turbo</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_shared|ARM64'">
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>libjpeg-turbo</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static|ARM64'">
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>libjpeg-turbo</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_shared|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)libjpeg-turbo\simd\;$(ProjectDir)libjpeg-turbo\;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__ARM_HAVE_NEON;SIZEOF_SIZE_T=8</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)libjpeg-turbo\simd\;$(ProjectDir)libjpeg-turbo\;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__ARM_HAVE_NEON;SIZEOF_SIZE_T=8</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_shared|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)libjpeg-turbo\simd\;$(ProjectDir)libjpeg-turbo\;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);__ARM_HAVE_NEON;SIZEOF_SIZE_T=8</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_static|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)libjpeg-turbo\simd\;$(ProjectDir)libjpeg-turbo\;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);__ARM_HAVE_NEON;SIZEOF_SIZE_T=8</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

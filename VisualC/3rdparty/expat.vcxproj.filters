@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libexpat\xmlparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libexpat\xmlrole.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libexpat\xmltok.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Source\skia\skui.git\3rdparty\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EFE01C92-9E66-39D8-A1EC-B2B81DC2BD53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

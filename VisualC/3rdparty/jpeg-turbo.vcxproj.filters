@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jaricom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jccoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jccolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcdctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jchuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcinit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcomapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcparam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcphuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcprepct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jcsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdcoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdcolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jddctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdhuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdinput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdmerge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdphuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdpostct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jfdctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jidctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jidctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jidctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jidctred.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jmemmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jmemnobs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jquant1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jquant2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\bmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\cderror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\cdjpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jchuff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jconfigint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdcoefct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdhuff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdmainct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdmaster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jdsample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jerror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jinclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jmemsys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jmorecfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jpeg_nbits_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jpegcomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jpegint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jpeglib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jsimd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jsimddct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\jversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\tjutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\transupp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\turbojpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\libjpeg-turbo\wrppm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Source\skia\skui.git\3rdparty\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EFE01C92-9E66-39D8-A1EC-B2B81DC2BD53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E87C0AA1-B200-3D68-A20A-61FAD1A21064}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

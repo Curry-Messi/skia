@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_shared|x86">
+      <Configuration>Debug_shared</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_static|x86">
+      <Configuration>Debug_static</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_shared|x86">
+      <Configuration>Release_shared</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_static|x86">
+      <Configuration>Release_static</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libjpeg-turbo\simd\jsimd_i386.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="libjpeg-turbo\simd\jcgray-mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jcgray-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jchuff-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jcsample-mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jcsample-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jdcolor-mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jdcolor-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jdmerge-mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jdmerge-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jdsample-mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jdsample-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctflt-3dn.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctflt-sse.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctfst-mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctfst-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctint-mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctint-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctflt-3dn.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctflt-sse.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctflt-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctfst-mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctfst-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctint-mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctint-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctred-mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctred-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jquant-3dn.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jquant-mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jquant-sse.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jquantf-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jquanti-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jsimdcpu.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="libjpeg-turbo\simd\jccolor-mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jccolor-sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">$(VS_NdkRoot)\prebuilt\$(HostTag)\bin\yasm -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\ -DELF -isystem $(Sysroot)\usr\include -f elf32 %(FullPath) -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).o</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">%(Filename).o</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">%(Filename).o</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{c7012d6f-8f12-4a19-8815-08252823cf2c}</ProjectGuid>
+    <Keyword>Android</Keyword>
+    <RootNamespace>libjpeg_turbo_x86</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Android</ApplicationType>
+    <ApplicationTypeRevision>3.0</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+    <UseOfStl>c++_static</UseOfStl>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+    <UseOfStl>c++_shared</UseOfStl>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+    <UseOfStl>c++_static</UseOfStl>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+    <UseOfStl>c++_shared</UseOfStl>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared">
+    <Import Project="libjpeg-turbo.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>liblibjpeg-turbo</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>liblibjpeg-turbo</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>liblibjpeg-turbo</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>liblibjpeg-turbo</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static|x86'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)libjpeg-turbo\simd\;$(ProjectDir)libjpeg-turbo\;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WITH_SIMD;SIZEOF_SIZE_T=4</PreprocessorDefinitions>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>$(ToolchainPrebuiltPath)\bin\$(ToolchainPrefix)ar.exe -rsv  "$(TargetPath)" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jchuff-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jsimdcpu.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctflt-3dn.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctflt-3dn.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquant-3dn.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jccolor-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcgray-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcsample-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdcolor-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdmerge-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdsample-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctfst-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctint-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctfst-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctint-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctred-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquant-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctflt-sse.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctflt-sse.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquant-sse.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jccolor-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcgray-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcsample-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdcolor-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdmerge-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdsample-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctfst-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctint-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctflt-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctfst-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctint-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctred-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquantf-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquanti-sse2.o"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x86'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)libjpeg-turbo\simd\;$(ProjectDir)libjpeg-turbo\;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WITH_SIMD;SIZEOF_SIZE_T=4</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jchuff-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jsimdcpu.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctflt-3dn.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctflt-3dn.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquant-3dn.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jccolor-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcgray-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcsample-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdcolor-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdmerge-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdsample-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctfst-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctint-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctfst-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctint-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctred-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquant-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctflt-sse.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctflt-sse.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquant-sse.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jccolor-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcgray-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcsample-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdcolor-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdmerge-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdsample-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctfst-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctint-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctflt-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctfst-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctint-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctred-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquantf-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquanti-sse2.o;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_static|x86'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)libjpeg-turbo\simd\;$(ProjectDir)libjpeg-turbo\;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WITH_SIMD;NDEBUG;%(PreprocessorDefinitions)SIZEOF_SIZE_T=4</PreprocessorDefinitions>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>$(ToolchainPrebuiltPath)\bin\$(ToolchainPrefix)ar.exe -rsv  "$(TargetPath)" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jchuff-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jsimdcpu.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctflt-3dn.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctflt-3dn.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquant-3dn.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jccolor-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcgray-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcsample-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdcolor-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdmerge-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdsample-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctfst-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctint-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctfst-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctint-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctred-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquant-mmx.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctflt-sse.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctflt-sse.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquant-sse.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jccolor-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcgray-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcsample-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdcolor-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdmerge-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdsample-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctfst-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctint-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctflt-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctfst-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctint-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctred-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquantf-sse2.o" "$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquanti-sse2.o"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_shared|x86'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)libjpeg-turbo\simd\;$(ProjectDir)libjpeg-turbo\;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WITH_SIMD;NDEBUG;%(PreprocessorDefinitions)SIZEOF_SIZE_T=4</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jchuff-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jsimdcpu.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctflt-3dn.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctflt-3dn.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquant-3dn.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jccolor-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcgray-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcsample-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdcolor-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdmerge-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdsample-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctfst-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctint-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctfst-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctint-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctred-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquant-mmx.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctflt-sse.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctflt-sse.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquant-sse.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jccolor-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcgray-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jcsample-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdcolor-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdmerge-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jdsample-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctfst-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jfdctint-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctflt-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctfst-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctint-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jidctred-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquantf-sse2.o;$(MSBuildThisFileDirectory)$(IntermediateOutputPath)jquanti-sse2.o;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

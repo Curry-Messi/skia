@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="libjpeg-turbo\simd\jcgray-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jchuff-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jcsample-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jdcolor-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jdmerge-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jdsample-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctfst-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctint-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctflt-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctfst-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctint-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctred-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jquantf-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jquanti-sse2-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctflt-sse-64.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jccolor-sse2-64.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libjpeg-turbo\simd\jsimd_x86_64.c" />
+  </ItemGroup>
+</Project>

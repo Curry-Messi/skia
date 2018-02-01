@@ -1,0 +1,3594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkGifCodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkHeifCodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkIcoCodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkJpegCodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkJpegDecoderMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkJpegUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkMasks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkMaskSwizzler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkPngCodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkSampledCodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkSampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkStreamBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkSwizzler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkWbmpCodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAAClip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAlphaRuns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAnalyticEdge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAnnotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkArenaAlloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkATrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAutoPixmapStorage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBBHFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBigPicture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapProcState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapProcState_matrixProcs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlendMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlitMask_D32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlitRow_D32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlitter_A8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlitter_ARGB32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlitter_RGB565.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlitter_Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlurImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkCachedData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkClipStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkClipStackDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorLookUpTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorMatrixFilterRowMajor255.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpace_A2B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpace_ICC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpace_XYZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpaceXform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpaceXform_A2B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpaceXformCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpaceXformer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpaceXformImageGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkConvertPixels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkCoverageDelta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkCpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkCubicClipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDataTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDeferredDisplayListRecorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDeque.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDeviceLooper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDeviceProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDistanceFieldGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDither.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDraw_vertices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDrawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDrawLooper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDrawShadowInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkEdge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkEdgeBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkEdgeClipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkExecutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFDot6Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFlattenable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFlattenableSerialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFontDescriptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFontLCDConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFontMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFontStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFontStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkGlobalInitialization_core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkGlyphCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkGraphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkHalf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkICC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkImageFilterCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkImageGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkImageInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkLatticeIter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkLineClipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkLiteDL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkLiteRecorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkLocalMatrixImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMallocPixelRef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMaskBlurFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMaskCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMaskFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMaskGamma.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMatrix44.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMatrixImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMD5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMetaData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMiniRecorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMipMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkModeColorFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMultiPictureDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkOpts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkOverdrawCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPaint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPaintPriv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPathEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPathMeasure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPathRef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPicture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureAnalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureContentInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureFlat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureImageGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPicturePlayback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureRecorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPixelRef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPixmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPoint3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPtrRecorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkQuadClipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRasterClip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRasterizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRasterPipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRasterPipelineBlitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkReadBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecordDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecordedDrawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecordOpts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecords.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRefDict.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRegion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRegion_path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkResourceCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRRect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRWBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScalar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScalerContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScan_AAAPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScan_Antihair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScan_AntiPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScan_DAAPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScan_Hairline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScan_Path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSemaphore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSharedMutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSpecialImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSpecialSurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSpinlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSpriteBlitter_ARGB32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSpriteBlitter_RGB565.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSRGB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkStringUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkStroke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkStrokeRec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkStrokerPriv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSwizzle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTaskGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTextBlob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkThreadedBMPDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkThreadID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTLS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTypeface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTypefaceCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkUnPreMultiply.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkValidatingReadBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkVertices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkVertState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkWriteBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkWriter32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkXfermode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkXfermodeInterpretation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkYUVPlanesCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\Sk1DPathEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\Sk2DPathEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkAlphaThresholdFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkArithmeticImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkBlurMask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkBlurMaskFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkColorFilterImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkColorMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkColorMatrixFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkComposeImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkCornerPathEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkDashPathEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkDiscretePathEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkDisplacementMapEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkDropShadowImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkEmbossMask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkEmbossMaskFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkHighContrastFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkImageSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkLayerDrawLooper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkLayerRasterizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkLightingImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkLumaColorFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkMagnifierImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkMatrixConvolutionImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkMergeImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkMorphologyImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkOffsetImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkOverdrawColorFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkPackBits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkPaintFlagsDrawFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkPaintImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkPictureImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkRRectsGaussianEdgeMaskFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkTableColorFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkTableMaskFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkTileImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkToSRGBColorFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkXfermodeImageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\fonts\SkFontMgr_indirect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\fonts\SkRandomScalerContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\fonts\SkRemotableFontMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\image\SkImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\image\SkImage_Gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\image\SkImage_Lazy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\image\SkImage_Raster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\image\SkSurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\image\SkSurface_Gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\image\SkSurface_Raster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\images\SkImageEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\images\SkJpegEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\images\SkJPEGWriteUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\images\SkPngEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\jumper\SkJumper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\jumper\SkJumper_stages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\jumper\SkJumper_stages_lowp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\lazy\SkDiscardableMemoryPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkAddIntersections.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkDConicLineIntersection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkDCubicLineIntersection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkDCubicToQuads.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkDLineIntersection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkDQuadLineIntersection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkIntersections.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpAngle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpCoincidence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpContour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpCubicHull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpEdgeBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpSegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpSpan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsConic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsCubic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsCurve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsQuad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsRect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsSimplify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsTightBounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsTSect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsWinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkReduceOrder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkDeflate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkJpegInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkKeyedImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFBitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFCanon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFConvertType1FontStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFFormXObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFGradientShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFGraphicState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFMakeCIDGlyphWidthsArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFMakeToUnicodeCmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFResourceDict.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pipe\SkPipeCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\pipe\SkPipeReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkDebug_stdio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkDiscardableMemory_none.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkGlobalInitialization_default.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkImageGenerator_skia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkMemory_malloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkOSFile_stdio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_name.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\Sk4fGradientBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\Sk4fLinearGradient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkClampRange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkGradientBitmapCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkGradientShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkLinearGradient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkRadialGradient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkSweepGradient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkTwoPointConicalGradient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkTwoPointConicalGradient_gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkBitmapProcShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkColorFilterShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkColorShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkComposeShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkImageShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkLocalMatrixShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkPerlinNoiseShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkPictureShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLSetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLSymbolTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\lex\NFA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\lex\RegexNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\lex\RegexParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLCFGGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLCompiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLCPPCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLGLSLCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLHCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLIRGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLLayoutLexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLLexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLSPIRVCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\svg\SkSVGCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\svg\SkSVGDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkBase64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkBitmapSourceDeserializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkCanvasStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkCanvasStateUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkCurveMeasure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkDashPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkDeferredCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkDumpCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkEventTracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkFrontBufferedStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkInsetConvexPolygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkInterpolator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkJSONWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkMatrix22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkMultiPictureDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkNullCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkNWayCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkOSPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkPaintFilterCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkParse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkParseColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkParsePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkPatchUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkShadowTessellator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkShadowUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkTextBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkWhitelistTypefaces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\xml\SkDOM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\xml\SkXMLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\xml\SkXMLWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\third_party\etc1\etc1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\third_party\gif\SkGifImageReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkDebug_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkFontHost_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkOSFile_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkOSLibrary_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkScalerContext_win_dw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkThreadUtils_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkTLS_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\win\SkAutoCoInitialize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\win\SkHRESULT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\win\SkIStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\win\SkWGL_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\opts_check_x86.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBitmapProcState_opts_SSE2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBitmapProcState_opts_SSSE3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBlitRow_opts_SSE2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkOpts_avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkOpts_crc32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkOpts_sse41.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkOpts_sse42.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkOpts_ssse3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\skia\src\codec\SkAndroidCodec.cpp">
+      <Filter>Source Files\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkBmpBaseCodec.cpp">
+      <Filter>Source Files\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkBmpCodec.cpp">
+      <Filter>Source Files\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkBmpMaskCodec.cpp">
+      <Filter>Source Files\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkBmpRLECodec.cpp">
+      <Filter>Source Files\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkBmpStandardCodec.cpp">
+      <Filter>Source Files\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkCodec.cpp">
+      <Filter>Source Files\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkCodecImageGenerator.cpp">
+      <Filter>Source Files\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\skia\src\ports\SkFontHost_FreeType_common.cpp">
+      <Filter>Source Files\ports</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkFontMgr_custom.cpp">
+      <Filter>Source Files\ports</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkFontMgr_custom_directory.cpp">
+      <Filter>Source Files\ports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\skia\src\ports\SkFontMgr_win_gdi_factory.cpp">
+      <Filter>Source Files\ports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\skia\src\ports\SkFontHost_FreeType.cpp">
+      <Filter>Source Files\ports</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkGpuBlurUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\skia\src\effects\GrAlphaThresholdFragmentProcessor.cpp">
+      <Filter>Source Files\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\skia\src\effects\GrCircleBlurFragmentProcessor.cpp">
+      <Filter>Source Files\effects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\android\SkBitmapRegionCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\android\SkBitmapRegionDecoderPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\c\sk_c_from_to.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\c\sk_types_priv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkBmpBaseCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkBmpCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkBmpMaskCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkBmpRLECodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkBmpStandardCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkCodecAnimationPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkCodecImageGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkCodecPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkFrameHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkGifCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkHeifCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkIcoCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkJpegCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkJpegDecoderMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkJpegPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkJpegUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkMaskSwizzler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkMasks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkPngCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkRawAdapterCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkRawCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkSampledCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkSampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkStreamBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkSwizzler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkWbmpCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkWebpAdapterCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\codec\SkWebpCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\Sk4px.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\Sk4x4f.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAAClip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkATrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAdvancedTypefaceMetrics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAnalyticEdge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAnnotationKeys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAntiRun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkArenaAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAutoBlitterChoose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAutoKern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAutoMalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkAutoPixmapStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBBoxHierarchy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBigPicture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapProcState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapProcState_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapProcState_matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapProcState_matrix_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapProcState_procs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapProcState_sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapProcState_shaderproc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapProcState_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBitmapProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlendModePriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlitBWMaskTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlitMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlitRow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBlitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkCachedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkCanvasPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkClipOpPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkClipStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkClipStackDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorLookUpTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorMatrixFilterRowMajor255.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpacePriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpaceXformImageGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpaceXformPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpaceXform_A2B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpaceXform_Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpaceXformer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpace_A2B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpace_Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorSpace_XYZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkColorTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkConvertPixels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkCoreBlitters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkCoverageDelta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkCpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkCubicClipper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDeduper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDescriptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDeviceLooper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDeviceProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDiscardableMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDistanceFieldGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDither.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDrawProcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkDrawShadowInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkEdge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkEdgeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkEdgeClipper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkEndian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkExchange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFDot6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFDot6Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFindAndPlaceGlyph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFixed15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFontDescriptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFontStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkFuzzLogging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkGlyph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkGlyphCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkGlyphCache_Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkGpuBlurUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkHalf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkICCPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkImageCacherator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkImageFilterCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkImageInfoPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkImagePriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkLRUCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkLatticeIter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkLineClipper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkLiteDL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkLiteRecorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkLocalMatrixImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMD5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMSAN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMakeUnique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMaskBlurFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMaskCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMaskGamma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMathPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMatrixImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMatrixPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMatrixUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMiniRecorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkMipMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkModeColorFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkNextID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkNx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkOSFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkOpts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkOrderedReadBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPM4f.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPM4fPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPaintDefaults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPaintPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPathMeasurePriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPathPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureContentInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureFlat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureImageGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPicturePlayback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPictureRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPipe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkPtrRecorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkQuadClipper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRasterClip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRasterClipStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRasterPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkReadBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkReader32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecordDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecordOpts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecordPattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecordedDrawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRecords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRefDict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkRegionPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkResourceCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSRGB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSafeMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScaleToSides.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScalerContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkScanPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSharedMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSinglyLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSpecialImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSpecialSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSpriteBlitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkStreamPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkStringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkStroke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkStrokerPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkSurfacePriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTDPQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTDynamicHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTInternalLList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTLList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTLS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTMultiMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTTopoSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTaskGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTextBlobRunIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTextFormatParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTextMapStateProc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTextToPathIter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkThreadedBMPDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTraceEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTraceEventCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTypefaceCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkTypefacePriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkUnPreMultiplyPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkUtilsArm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkValidatingReadBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkValidationUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkVertState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkWritePixelsRec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkXfermodeInterpretation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkXfermodePriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\core\SkYUVPlanesCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkBlurMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkDashImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkEmbossMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkEmbossMaskFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\effects\SkPackBits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\fonts\SkRandomScalerContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\fonts\SkTestScalerContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\gpu\gl\mesa\osmesa_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\image\SkImage_Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\image\SkImage_Gpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\image\SkReadPixelsRec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\image\SkSurface_Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\image\SkSurface_Gpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\images\SkImageEncoderFns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\images\SkImageEncoderPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\images\SkJPEGWriteUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\jumper\SkJumper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\jumper\SkJumper_misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\jumper\SkJumper_vectors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\lazy\SkDiscardableMemoryPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\Sk4px_NEON.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\Sk4px_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\Sk4px_none.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBitmapProcState_filter_neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBitmapProcState_matrix_neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBitmapProcState_opts_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBitmapProcState_opts_SSSE3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBlitMask_opts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBlitMask_opts_arm_neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBlitRow_opts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBlitRow_opts_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBlitRow_opts_arm_neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkBlurImageFilter_opts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkChecksum_opts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkColor_opts_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkColor_opts_neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkMorphologyImageFilter_opts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkNx_neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkNx_sse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkSwizzler_opts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkUtils_opts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\opts\SkXfermode_opts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkAddIntersections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkIntersectionHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkIntersections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkLineParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpAngle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpCoincidence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpContour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpEdgeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkOpSpan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsBounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsConic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsCubic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsQuad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsRect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsTSect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathOpsTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkPathWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pathops\SkReduceOrder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkBitmapKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkDeflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkJpegInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkKeyedImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFBitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFCanon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFConvertType1FontStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFFormXObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFGradientShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFGraphicState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFMakeCIDGlyphWidthsArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFMakeToUnicodeCmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFResourceDict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkPDFUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pdf\SkScopeExit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pipe\SkPipeCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pipe\SkPipeFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\pipe\SkRefSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkFontConfigInterface_direct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkFontConfigTypeface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkFontHost_FreeType_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkFontMgr_android_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkFontMgr_custom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkImageGeneratorCG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkImageGeneratorWIC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkOSLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\ports\SkScalerContext_win_dw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkIBMFamilyClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTableTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_EBDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_EBLC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_EBSC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_OS_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_OS_2_V0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_OS_2_V1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_OS_2_V2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_OS_2_V3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_OS_2_V4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_OS_2_VA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_fvar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_gasp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_glyf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_head.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_hhea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_loca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_maxp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_maxp_CFF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_maxp_TT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_name.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTTable_post.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkOTUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkPanose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkSFNTHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sfnt\SkTTCFHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkBitmapProcShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkColorFilterShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkColorShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkComposeShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkEmptyShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkImageShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkLocalMatrixShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkPictureShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\SkShaderBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\Sk4fGradientBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\Sk4fGradientPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\Sk4fLinearGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkClampRange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkGradientBitmapCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkGradientShaderPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkLinearGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkRadialGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkSweepGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkTwoPointConicalGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\shaders\gradients\SkTwoPointConicalGradient_gpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLCFGGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLCPP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLCPPCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLCompiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLErrorReporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLFileOutputStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLGLSLCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLHCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLIRGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLLayoutLexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLLexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLMemoryLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLOutputStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLPosition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLSPIRVCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLSectionAndParameterHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLStringStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\SkSLUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTBinaryExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTBoolLiteral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTBreakStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTCallSuffix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTContinueStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTDeclaration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTDiscardStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTDoStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTExpressionStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTFieldSuffix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTFloatLiteral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTForStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTIdentifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTIfStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTIndexSuffix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTIntLiteral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTInterfaceBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTModifiersDeclaration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTPositionNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTPrecision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTPrefixExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTReturnStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTSuffix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTSuffixExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTSwitchCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTSwitchStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTTernaryExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTVarDeclaration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTVarDeclarationStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ast\SkSLASTWhileStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLBinaryExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLBoolLiteral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLBreakStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLConstructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLContinueStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLDiscardStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLDoStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLExpressionStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLFieldAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLFloatLiteral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLForStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLFunctionCall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLFunctionDeclaration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLFunctionDefinition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLFunctionReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLIRNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLIfStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLIndexExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLIntLiteral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLInterfaceBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLModifiers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLModifiersDeclaration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLNop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLPostfixExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLPrefixExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLProgramElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLReturnStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLSetting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLSwitchCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLSwitchStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLSwizzle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLSymbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLSymbolTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLTernaryExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLTypeReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLUnresolvedFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLVarDeclarations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLVarDeclarationsStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLVariableReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\ir\SkSLWhileStatement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\lex\DFA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\lex\DFAState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\lex\LexUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\lex\NFA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\lex\NFAState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\lex\NFAtoDFA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\lex\RegexNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\lex\RegexParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\sksl\spirv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\svg\SkSVGDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkBase64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkBitSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkBitmapSourceDeserializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkCanvasStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkCurveMeasure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkDashPathPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkDeferredCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkFloatUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkInsetConvexPolygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkJSONWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkMatrix22.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkMultiPictureDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkMultiPictureDocumentPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkOSPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkPatchUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkShadowTessellator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkThreadUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkThreadUtils_pthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\SkThreadUtils_win.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\win\SkAutoCoInitialize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\win\SkHRESULT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\win\SkIStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\win\SkTScopedComPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\utils\win\SkWGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\views\SkTagList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\views\SkViewPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\views\mac\SkEventNotifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\views\mac\SkNSView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\views\mac\SkOptionsTableView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\views\mac\SkSampleNSView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\views\mac\SkTextFieldCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\views\unix\XkeysToSkKeys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\views\unix\keysym2ucs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\xml\SkDOM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\xml\SkXMLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\xml\SkXMLWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\xps\SkXPSDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\src\xps\SkXPSDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\android\SkAndroidFrameworkUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\android\SkBRDAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\android\SkBitmapRegionDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\c\sk_canvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\c\sk_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\c\sk_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\c\sk_maskfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\c\sk_matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\c\sk_paint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\c\sk_path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\c\sk_picture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\c\sk_shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\c\sk_surface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\c\sk_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\codec\SkAndroidCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\codec\SkCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\codec\SkCodecAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\codec\SkEncodedInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\config\SkUserConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkAnnotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkBBHFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkBitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkBlendMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkBlurTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkClipOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkColorFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkColorPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkColorSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkColorSpaceXform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkColorSpaceXformCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkDataTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkDeferredDisplayListRecorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkDeque.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkDrawFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkDrawLooper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkDrawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkEncodedImageFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkExecutor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkFilterQuality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkFlattenable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkFlattenableSerialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkFontArguments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkFontLCDConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkFontStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkGraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkICC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkImageDeserializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkImageEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkImageGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkImageInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkMallocPixelRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkMaskFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkMatrix44.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkMetaData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkMilestone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkMultiPictureDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkOverdrawCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPaint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPathEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPathMeasure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPicture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPictureAnalyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPictureRecorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPixelRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPixelSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPixmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPngChunkReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPoint3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPostConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkPreConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkRRect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkRSXform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkRWBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkRasterHandleAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkRasterizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkRect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkRefCnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkScalar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkSize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkStrokeRec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkSurfaceProps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkSwizzle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkTLazy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkTextBlob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkTraceMemoryDump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkTypeface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkUnPreMultiply.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkVertices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkWriteBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkWriter32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\core\SkYUVSizeInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\Sk1DPathEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\Sk2DPathEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkAlphaThresholdFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkArithmeticImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkBlurDrawLooper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkBlurImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkBlurMaskFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkColorFilterImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkColorMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkColorMatrixFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkComposeImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkCornerPathEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkDashPathEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkDiscretePathEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkDisplacementMapEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkDropShadowImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkGradientShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkHighContrastFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkImageSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkLayerDrawLooper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkLayerRasterizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkLightingImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkLumaColorFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkMagnifierImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkMatrixConvolutionImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkMergeImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkMorphologyImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkOffsetImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkOverdrawColorFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkPaintFlagsDrawFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkPaintImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkPerlinNoiseShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkPictureImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkRRectsGaussianEdgeMaskFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkTableColorFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkTableMaskFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkTileImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkToSRGBColorFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\effects\SkXfermodeImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\encode\SkEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\encode\SkJpegEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\encode\SkPngEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\encode\SkWebpEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\pathops\SkPathOps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\ports\SkFontConfigInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\ports\SkFontMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\ports\SkFontMgr_FontConfigInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\ports\SkFontMgr_android.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\ports\SkFontMgr_directory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\ports\SkFontMgr_empty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\ports\SkFontMgr_fontconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\ports\SkFontMgr_indirect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\ports\SkRemotableFontMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\ports\SkTypeface_mac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\ports\SkTypeface_win.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkAtomics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkBitmaskEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkChecksum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkDeferredDisplayList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkFixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkFloatBits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkFloatingPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkLeanWindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkMalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkMessageBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkOnce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkPathRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkSafe_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkSemaphore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkShadowFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkSpinlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkSurfaceCharacterization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkTArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkTDArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkTFitsIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkTHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkTLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkTSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkTemplates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkThreadID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\private\SkWeakRefCnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\svg\SkSVGCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkCanvasStateUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkDumpCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkEventTracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkFrontBufferedStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkInterpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkLua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkLuaCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkNWayCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkNoDrawCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkNullCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkPaintFilterCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkParse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkParsePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkRandom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkShadowUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\SkTextBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\utils\mac\SkCGUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkEventSink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkOSMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkOSWindow_Mac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkOSWindow_Unix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkOSWindow_Win.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkOSWindow_iOS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkSystemEventTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkTouchGesture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Source\skia\skui.git\3rdparty\skia\include\views\SkWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\skia\src\effects\GrAlphaThresholdFragmentProcessor.h">
+      <Filter>Source Files\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\skia\src\effects\GrCircleBlurFragmentProcessor.h">
+      <Filter>Source Files\effects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Source\skia\skui.git\3rdparty\skia\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="E:\Source\skia\skui.git\3rdparty\skia\src\jumper\SkJumper_generated_win.S" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EFE01C92-9E66-39D8-A1EC-B2B81DC2BD53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E87C0AA1-B200-3D68-A20A-61FAD1A21064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\codec">
+      <UniqueIdentifier>{75496a89-c647-43d8-8f97-b02e7f7f2a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ports">
+      <UniqueIdentifier>{2060d9ea-05d3-43cb-899f-819dd60709e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\atlastext">
+      <UniqueIdentifier>{4cb2a883-cd68-4cc2-b3e7-9bbba484d0c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\effects">
+      <UniqueIdentifier>{7eedf999-f9ce-4ea2-b982-c0460635b3c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

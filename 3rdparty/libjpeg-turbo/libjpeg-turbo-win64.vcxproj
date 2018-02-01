@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_static|x64">
+      <Configuration>Debug_static</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_shared|x64">
+      <Configuration>Debug_shared</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_static|x64">
+      <Configuration>Release_static</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_shared|x64">
+      <Configuration>Release_shared</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="libjpeg-turbo\simd\jccolor-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jcgray-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jchuff-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jcsample-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jdcolor-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jdmerge-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jdsample-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctfst-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctint-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctflt-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctfst-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctint-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jidctred-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jquantf-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="libjpeg-turbo\simd\jquanti-sse2-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libjpeg-turbo\simd\jsimd_x86_64.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctflt-sse-64.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">$(SolutionDir)nasm.exe -fwin$(PlatformArchitecture) -DWIN$(PlatformArchitecture)  -D__x86_64__ %(FullPath) -i$(SolutionDir)libjpeg-turbo\simd\ -i$(SolutionDir)libjpeg-turbo\win\  -o$(MSBuildThisFileDirectory)$(IntermediateOutputPath)%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">%(Filename).obj</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7BCCAEF5-E6C5-44C1-9411-321A4B7970FB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libjpegturbowin64</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+    <Import Project="libjpeg-turbo.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">
+    <IntDir>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>libjpeg-turbo</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">
+    <IntDir>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>libjpeg-turbo</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">
+    <IntDir>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>libjpeg-turbo</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">
+    <IntDir>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>libjpeg-turbo</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_shared|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WITH_SIMD;_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;SIZEOF_SIZE_T=8</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)libjpeg-turbo\simd\;$(ProjectDir)libjpeg-turbo\;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_static|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WITH_SIMD;_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;SIZEOF_SIZE_T=8</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)libjpeg-turbo\simd\;$(ProjectDir)libjpeg-turbo\;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_shared|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WITH_SIMD;NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;SIZEOF_SIZE_T=8</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)libjpeg-turbo\simd\;$(ProjectDir)libjpeg-turbo\;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_static|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WITH_SIMD;NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;SIZEOF_SIZE_T=8</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)libjpeg-turbo\simd\;$(ProjectDir)libjpeg-turbo\;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>Intermediate\$(Platform)\$(Configuration)\$(ProjectName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

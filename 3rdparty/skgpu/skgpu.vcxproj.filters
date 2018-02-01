@@ -1,0 +1,1500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\gpu">
+      <UniqueIdentifier>{590dbfec-ef2f-4473-aa86-9df25ad265d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gpu\gl">
+      <UniqueIdentifier>{b0303c8d-45a8-49a3-a7a9-ec6a1501f8bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gpu\private">
+      <UniqueIdentifier>{d11ca897-4445-44ff-989d-f10ed592f4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gpu\mock">
+      <UniqueIdentifier>{4afe92dd-7373-49e3-81a1-7ed73a823a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gpu\mtl">
+      <UniqueIdentifier>{8094b2c5-7bf5-4370-a7ac-3e34ad1dcce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gpu\vk">
+      <UniqueIdentifier>{4cc1014b-8470-4342-bf8a-fa3cb3952a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gpu">
+      <UniqueIdentifier>{81a1fb41-fd91-4f54-97e7-3316ef09d29a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gpu\ccpr">
+      <UniqueIdentifier>{c1a4009f-94f1-4903-ad2f-0d04c72dc3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gpu\effects">
+      <UniqueIdentifier>{a0a0eb9c-7e0e-46e9-a920-0d044ab19688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gpu\gl">
+      <UniqueIdentifier>{a9531ccd-bbd2-40bf-90e1-88881564c584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gpu\gl\builders">
+      <UniqueIdentifier>{38dc9bbf-2c2b-40b9-a936-d24c7badd812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gpu\gl\win">
+      <UniqueIdentifier>{cf14250b-adb5-4ba9-bb70-8ac65284c750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gpu\glsl">
+      <UniqueIdentifier>{7ac9b5f0-ee40-4653-b06b-3594bd378814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gpu\instanced">
+      <UniqueIdentifier>{c8c91258-5e7e-4d48-a55b-1d953ec11fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gpu\mock">
+      <UniqueIdentifier>{c2b7670b-3292-47cf-a88a-6fc6a7acb0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gpu\ops">
+      <UniqueIdentifier>{6229d09e-064b-48ac-b476-e71b2e0e3b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gpu\text">
+      <UniqueIdentifier>{852a9c3d-4947-44ce-ae2f-d5cc09f4f1b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\skia\include\gpu\GrBackendSemaphore.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrBackendSurface.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrBlend.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrCaps.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrColor.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrConfig.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrContext.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrContextOptions.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrGpuResource.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrRenderTarget.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrResourceKey.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrSamplerState.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrShaderCaps.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrSurface.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrTexture.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\GrTypes.h">
+      <Filter>头文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\gl\GrGLAssembleInterface.h">
+      <Filter>头文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\gl\GrGLConfig.h">
+      <Filter>头文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\gl\GrGLExtensions.h">
+      <Filter>头文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\gl\GrGLFunctions.h">
+      <Filter>头文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\gl\GrGLInterface.h">
+      <Filter>头文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\gl\GrGLTypes.h">
+      <Filter>头文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\private\GrAuditTrail.h">
+      <Filter>头文件\gpu\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\private\GrGLSL.h">
+      <Filter>头文件\gpu\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\private\GrInstancedPipelineInfo.h">
+      <Filter>头文件\gpu\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\private\GrRenderTargetProxy.h">
+      <Filter>头文件\gpu\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\private\GrSingleOwner.h">
+      <Filter>头文件\gpu\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\private\GrSurfaceProxy.h">
+      <Filter>头文件\gpu\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\private\GrSwizzle.h">
+      <Filter>头文件\gpu\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\private\GrTextureProxy.h">
+      <Filter>头文件\gpu\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\private\GrTypesPriv.h">
+      <Filter>头文件\gpu\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\mock\GrMockTypes.h">
+      <Filter>头文件\gpu\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\mtl\GrMtlTypes.h">
+      <Filter>头文件\gpu\mtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\vk\GrVkTypes.h">
+      <Filter>头文件\gpu\vk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\vk\GrVkBackendContext.h">
+      <Filter>头文件\gpu\vk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\vk\GrVkInterface.h">
+      <Filter>头文件\gpu\vk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\include\gpu\vk\GrVkDefines.h">
+      <Filter>头文件\gpu\vk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrAHardwareBufferImageGenerator.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrAllocator.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrAppliedClip.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrAutoLocaleSetter.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrBackendTextureImageGenerator.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrBitmapTextureMaker.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrBlurUtils.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrBuffer.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrBufferAllocPool.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrClip.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrClipStackClip.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrColorSpaceXform.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrContextPriv.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrCoordTransform.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrDefaultGeoProcFactory.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrDeferredProxyUploader.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrDistanceFieldGenFromVector.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrDrawingManager.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrDrawOpAtlas.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrDrawOpTest.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrFixedClip.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrFragmentProcessor.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrGeometryProcessor.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrGlyph.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrGpu.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrGpuCommandBuffer.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrGpuFactory.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrGpuResourceCacheAccess.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrGpuResourcePriv.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrGpuResourceRef.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrImageTextureMaker.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrMemoryPool.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrMesh.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrNonAtomicRef.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrOnFlushResourceProvider.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrOpFlushState.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrOpList.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrPaint.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrPath.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrPathProcessor.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrPathRange.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrPathRenderer.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrPathRendererChain.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrPathRendering.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrPathRenderingRenderTargetContext.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrPathUtils.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrPendingProgramElement.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrPipeline.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrPrimitiveProcessor.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrProcessor.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrProcessorAnalysis.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrProcessorSet.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrProcessorUnitTest.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrProgramDesc.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrProgramElement.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrQuad.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrRect.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrRectanizer.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrRectanizer_pow2.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrRectanizer_skyline.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrReducedClip.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrRenderTargetContext.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrRenderTargetContextPriv.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrRenderTargetOpList.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrRenderTargetPriv.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrResourceAllocator.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrResourceCache.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrResourceHandle.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrResourceProvider.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrScissorState.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrSemaphore.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrShaderVar.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrShape.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrSKSLPrettyPrint.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrSoftwarePathRenderer.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrStencilAttachment.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrStencilSettings.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrStyle.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrSurfaceContext.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrSurfaceContextPriv.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrSurfacePriv.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrSurfaceProxyPriv.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrSWMaskHelper.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTessellator.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTestUtils.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTextureAdjuster.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTextureContext.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTextureMaker.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTextureOpList.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTexturePriv.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTextureProducer.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTextureProxyCacheAccess.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTextureProxyPriv.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTextureRenderTargetProxy.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTextureStripAtlas.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTracing.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrTRecorder.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrUserStencilSettings.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrWindowRectangles.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrWindowRectsState.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrXferProcessor.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\GrYUVProvider.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\SkGpuDevice.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\SkGr.h">
+      <Filter>源文件\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ccpr\GrCCPRAtlas.h">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ccpr\GrCCPRCoverageOp.h">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ccpr\GrCCPRCoverageProcessor.h">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ccpr\GrCCPRCubicProcessor.h">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ccpr\GrCCPRGeometry.h">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ccpr\GrCCPRPathProcessor.h">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ccpr\GrCCPRQuadraticProcessor.h">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ccpr\GrCCPRTriangleProcessor.h">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ccpr\GrCoverageCountingPathRenderer.h">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrArithmeticFP.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrAtlasedShaderHelpers.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrBezierEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrBicubicEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrBitmapTextGeoProc.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrBlurredEdgeFragmentProcessor.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrCircleEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrConfigConversionEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrConstColorProcessor.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrConvexPolyEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrCoverageSetOpXP.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrCustomXfermode.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrDisableColorXP.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrDistanceFieldGeoProc.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrDitherEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrEllipseEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrGaussianConvolutionFragmentProcessor.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrMatrixConvolutionEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrNonlinearColorSpaceXformEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrOvalEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrPorterDuffXferProcessor.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrRRectEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrShadowGeoProc.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrSimpleTextureEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrSRGBEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrTextureDomain.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrXfermodeFragmentProcessor.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\effects\GrYUVEffect.h">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLBuffer.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLCaps.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLContext.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLDefines.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLGLSL.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLGpu.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLGpuCommandBuffer.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLIRect.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLPath.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLPathRange.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLPathRendering.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLProgram.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLProgramDataManager.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLRenderTarget.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLSemaphore.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLStencilAttachment.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLTestInterface.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLTexture.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLTextureRenderTarget.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLUniformHandler.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLUtil.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLVaryingHandler.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\GrGLVertexArray.h">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\builders\GrGLProgramBuilder.h">
+      <Filter>源文件\gpu\gl\builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\gl\builders\GrGLShaderStringBuilder.h">
+      <Filter>源文件\gpu\gl\builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLBlend.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLColorSpaceXformHelper.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLFragmentProcessor.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLFragmentShaderBuilder.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLGeometryProcessor.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLGeometryShaderBuilder.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLPrimitiveProcessor.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLProgramBuilder.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLProgramDataManager.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLShaderBuilder.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLUniformHandler.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLUtil.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLVarying.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLVertexShaderBuilder.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\glsl\GrGLSLXferProcessor.h">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\instanced\GLInstancedRendering.h">
+      <Filter>源文件\gpu\instanced</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\instanced\InstancedOp.h">
+      <Filter>源文件\gpu\instanced</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\instanced\InstancedRendering.h">
+      <Filter>源文件\gpu\instanced</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\instanced\InstancedRenderingTypes.h">
+      <Filter>源文件\gpu\instanced</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\instanced\InstanceProcessor.h">
+      <Filter>源文件\gpu\instanced</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\mock\GrMockBuffer.h">
+      <Filter>源文件\gpu\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\mock\GrMockCaps.h">
+      <Filter>源文件\gpu\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\mock\GrMockGpu.h">
+      <Filter>源文件\gpu\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\mock\GrMockGpuCommandBuffer.h">
+      <Filter>源文件\gpu\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\mock\GrMockStencilAttachment.h">
+      <Filter>源文件\gpu\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\mock\GrMockTexture.h">
+      <Filter>源文件\gpu\mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrAAConvexPathRenderer.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrAAConvexTessellator.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrAAHairLinePathRenderer.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrAALinearizingConvexPathRenderer.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrAtlasTextOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrClearOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrClearStencilClipOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrCopySurfaceOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrDashLinePathRenderer.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrDashOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrDebugMarkerOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrDefaultPathRenderer.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrDrawAtlasOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrDrawOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrDrawPathOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrDrawVerticesOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrLatticeOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrMeshDrawOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrMSAAPathRenderer.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrOvalOpFactory.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrPathStencilSettings.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrRectOpFactory.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrRegionOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrSemaphoreOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrShadowRRectOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrSimpleMeshDrawOpHelper.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrSmallPathRenderer.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrStencilAndCoverPathRenderer.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrStencilPathOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrTessellatingPathRenderer.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\ops\GrTextureOp.h">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\text\GrAtlasGlyphCache.h">
+      <Filter>源文件\gpu\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\text\GrAtlasTextBlob.h">
+      <Filter>源文件\gpu\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\text\GrAtlasTextContext.h">
+      <Filter>源文件\gpu\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\text\GrDistanceFieldAdjustTable.h">
+      <Filter>源文件\gpu\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\text\GrStencilAndCoverTextContext.h">
+      <Filter>源文件\gpu\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\text\GrTextBlobCache.h">
+      <Filter>源文件\gpu\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skia\src\gpu\text\GrTextUtils.h">
+      <Filter>源文件\gpu\text</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\skia\src\gpu\GrAHardwareBufferImageGenerator.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrAuditTrail.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrBackendSurface.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrBackendTextureImageGenerator.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrBitmapTextureMaker.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrBlend.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrBlurUtils.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrBuffer.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrBufferAllocPool.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrCaps.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrClipStackClip.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrColorSpaceXform.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrContext.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrDefaultGeoProcFactory.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrDistanceFieldGenFromVector.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrDrawingManager.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrDrawOpAtlas.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrDrawOpTest.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrFixedClip.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrFragmentProcessor.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrGpu.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrGpuCommandBuffer.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrGpuFactory.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrGpuResource.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrGpuResourceRef.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrImageTextureMaker.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrMemoryPool.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrOnFlushResourceProvider.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrOpFlushState.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrOpList.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrPaint.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrPath.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrPathProcessor.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrPathRange.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrPathRenderer.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrPathRendererChain.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrPathRendering.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrPathRenderingRenderTargetContext.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrPathUtils.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrPipeline.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrPrimitiveProcessor.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrProcessor.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrProcessorAnalysis.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrProcessorSet.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrProcessorUnitTest.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrProgramDesc.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrRectanizer_pow2.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrRectanizer_skyline.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrReducedClip.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrRenderTarget.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrRenderTargetContext.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrRenderTargetOpList.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrRenderTargetProxy.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrResourceAllocator.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrResourceCache.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrResourceProvider.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrShaderCaps.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrShaderVar.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrShape.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrSKSLPrettyPrint.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrSoftwarePathRenderer.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrStencilAttachment.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrStencilSettings.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrStyle.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrSurface.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrSurfaceContext.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrSurfaceProxy.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrSWMaskHelper.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrTessellator.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrTestUtils.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrTexture.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrTextureAdjuster.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrTextureContext.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrTextureMaker.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrTextureOpList.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrTextureProducer.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrTextureProxy.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrTextureRenderTargetProxy.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrXferProcessor.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\GrYUVProvider.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\SkGr.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\SkGpuDevice_drawTexture.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\SkGpuDevice.cpp">
+      <Filter>源文件\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ccpr\GrCCPRAtlas.cpp">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ccpr\GrCCPRCoverageOp.cpp">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ccpr\GrCCPRCoverageProcessor.cpp">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ccpr\GrCCPRCubicProcessor.cpp">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ccpr\GrCCPRGeometry.cpp">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ccpr\GrCCPRPathProcessor.cpp">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ccpr\GrCCPRQuadraticProcessor.cpp">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ccpr\GrCCPRTriangleProcessor.cpp">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ccpr\GrCoverageCountingPathRenderer.cpp">
+      <Filter>源文件\gpu\ccpr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrArithmeticFP.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrBezierEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrBicubicEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrBitmapTextGeoProc.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrBlurredEdgeFragmentProcessor.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrCircleEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrConfigConversionEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrConstColorProcessor.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrConvexPolyEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrCoverageSetOpXP.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrCustomXfermode.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrDisableColorXP.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrDistanceFieldGeoProc.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrDitherEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrEllipseEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrGaussianConvolutionFragmentProcessor.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrMatrixConvolutionEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrNonlinearColorSpaceXformEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrOvalEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrPorterDuffXferProcessor.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrRRectEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrShadowGeoProc.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrSimpleTextureEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrSRGBEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrTextureDomain.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrTextureStripAtlas.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrXfermodeFragmentProcessor.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\effects\GrYUVEffect.cpp">
+      <Filter>源文件\gpu\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLAssembleInterface.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLBuffer.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLCaps.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLContext.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLCreateNullInterface.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLDefaultInterface_native.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLExtensions.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLGLSL.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLGpu.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLGpuCommandBuffer.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLGpuProgramCache.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLInterface.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLPath.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLPathRange.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLPathRendering.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLProgram.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLProgramDataManager.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLRenderTarget.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLSemaphore.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLStencilAttachment.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLTestInterface.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLTexture.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLTextureRenderTarget.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLUniformHandler.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLUtil.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLVaryingHandler.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\GrGLVertexArray.cpp">
+      <Filter>源文件\gpu\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\builders\GrGLProgramBuilder.cpp">
+      <Filter>源文件\gpu\gl\builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\builders\GrGLShaderStringBuilder.cpp">
+      <Filter>源文件\gpu\gl\builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\gl\win\GrGLCreateNativeInterface_win.cpp">
+      <Filter>源文件\gpu\gl\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSL.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLBlend.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLFragmentProcessor.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLFragmentShaderBuilder.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLGeometryProcessor.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLGeometryShaderBuilder.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLPrimitiveProcessor.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLProgramBuilder.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLProgramDataManager.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLShaderBuilder.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLUtil.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLVarying.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLVertexShaderBuilder.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\glsl\GrGLSLXferProcessor.cpp">
+      <Filter>源文件\gpu\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\instanced\GLInstancedRendering.cpp">
+      <Filter>源文件\gpu\instanced</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\instanced\InstancedOp.cpp">
+      <Filter>源文件\gpu\instanced</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\instanced\InstancedRendering.cpp">
+      <Filter>源文件\gpu\instanced</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\instanced\InstanceProcessor.cpp">
+      <Filter>源文件\gpu\instanced</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\mock\GrMockGpu.cpp">
+      <Filter>源文件\gpu\mock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrAAConvexPathRenderer.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrAAConvexTessellator.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrAAFillRectOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrAAHairLinePathRenderer.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrAALinearizingConvexPathRenderer.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrAAStrokeRectOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrAtlasTextOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrClearOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrCopySurfaceOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrDashLinePathRenderer.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrDashOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrDefaultPathRenderer.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrDrawAtlasOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrDrawPathOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrDrawVerticesOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrLatticeOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrMeshDrawOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrMSAAPathRenderer.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrNonAAFillRectOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrNonAAStrokeRectOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrOvalOpFactory.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrRegionOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrSemaphoreOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrShadowRRectOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrSimpleMeshDrawOpHelper.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrSmallPathRenderer.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrStencilAndCoverPathRenderer.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrStencilPathOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrTessellatingPathRenderer.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\ops\GrTextureOp.cpp">
+      <Filter>源文件\gpu\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\text\GrAtlasGlyphCache.cpp">
+      <Filter>源文件\gpu\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\text\GrAtlasTextBlob.cpp">
+      <Filter>源文件\gpu\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\text\GrAtlasTextBlob_regenInOp.cpp">
+      <Filter>源文件\gpu\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\text\GrAtlasTextContext.cpp">
+      <Filter>源文件\gpu\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\text\GrDistanceFieldAdjustTable.cpp">
+      <Filter>源文件\gpu\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\text\GrStencilAndCoverTextContext.cpp">
+      <Filter>源文件\gpu\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\text\GrTextBlobCache.cpp">
+      <Filter>源文件\gpu\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skia\src\gpu\text\GrTextUtils.cpp">
+      <Filter>源文件\gpu\text</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

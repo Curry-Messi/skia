@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="libjpeg-turbo\simd\jsimd_i386.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="libjpeg-turbo\simd\jcgray-mmx.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jcgray-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jchuff-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jcsample-mmx.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jcsample-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jdcolor-mmx.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jdcolor-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jdmerge-mmx.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jdmerge-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jdsample-mmx.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jdsample-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctflt-3dn.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctflt-sse.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctfst-mmx.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctfst-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctint-mmx.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jfdctint-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctflt-3dn.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctflt-sse.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctflt-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctfst-mmx.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctfst-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctint-mmx.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctint-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctred-mmx.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jidctred-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jquant-3dn.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jquant-mmx.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jquant-sse.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jquantf-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jquanti-sse2.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jsimdcpu.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jccolor-mmx.asm" />
+    <CustomBuild Include="libjpeg-turbo\simd\jccolor-sse2.asm" />
+  </ItemGroup>
+</Project>
