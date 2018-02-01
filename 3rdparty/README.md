@@ -1,6 +1,6 @@
 # SkIA 3rd-party dependencies
 
-This repository contains the 3rd-party dependencies necessary to build SkUI.
+This repository contains the 3rd-party dependencies necessary to build SkIA.
 Most are only built from these sources if no suitable system libraries are found.
 The sources here were extracted from the original sources.
 Any modifications to them are recorded in this repository's history.
